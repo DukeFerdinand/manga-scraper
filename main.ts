@@ -50,7 +50,7 @@ async function main() {
     //       noMatch = false;
     //     }
     //   }
-    const range = _.range(69, 90);
+    const range = _.range(69, 91);
 
     console.log(range);
 
@@ -90,7 +90,7 @@ async function main() {
     imageUrls.push(...chapter.items);
   }
 
-  const dir = title;
+  const dir = "downloads/" + title;
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir);
   }

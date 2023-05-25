@@ -4,3 +4,5 @@ node_modules/
 /playwright/.cache/
 .DS_Store
 *.zip
+downloads/*
+!downloads/.gitkeep
